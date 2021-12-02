@@ -28,6 +28,7 @@ export const ServiceStatusContext = createContext({
   selectedService: '',
   setSelectedService: (item: string) => {},
   tubeServices: [{} as TubeServiceItemType],
+  cycleCache: new Map(),
 })
 
 const App = () => {
@@ -45,10 +46,12 @@ const App = () => {
     crowding: {},
   }];
 
+  const cycleCache = new Map();
+
   const [tubeServices, setTubeServices] = useState(initialTubeServices);
   const [selectedService, setSelectedService] = useState('');
 
-  const myContextValue = { selectedService, setSelectedService, tubeServices };
+  const myContextValue = { selectedService, setSelectedService, tubeServices, cycleCache };
 
   useEffect(() => {
     axios.get(TFL_REGULAR_SERVICES_URL)

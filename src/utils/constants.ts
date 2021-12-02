@@ -13,3 +13,5 @@ export const GOOD_SERVICE_CODE = 10;
 export const SERVICE_NO_DISRUPTIONS_MESSAGE = 'No service disruptions';
 
 export const SERVICE_DISRUPTIONS_MESSAGE = 'Service currently suffering disruptions';
+
+export const CYCLE_STRING = 'Cycle';

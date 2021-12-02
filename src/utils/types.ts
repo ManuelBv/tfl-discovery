@@ -17,3 +17,11 @@ export type TubeServiceProps = TubeServiceItemType[];
 export interface OrderedTubeServicesType {
   [key: string]: TubeServiceProps;
 }
+
+export interface CycleHireResultsProps {
+  [key: string]: string;
+  id: string;
+  commonName: string;
+  lat: string;
+  lon: string;
+};

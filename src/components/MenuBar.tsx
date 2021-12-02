@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import styled from '@emotion/styled';
 
 import { orderRegularTubeData } from '../utils/helpers';
+import { CYCLE_STRING } from '../utils/constants';
 import SubMenuItems from './SubMenuItems';
 
 import { ServiceStatusContext } from '../App';
@@ -45,7 +46,7 @@ const MenuWrapper = styled.ul`
 `;
 
 const MenuBar = () => {
-  const { tubeServices } = useContext(ServiceStatusContext);
+  const { setSelectedService, tubeServices } = useContext(ServiceStatusContext);
   const orderedTubeObject = orderRegularTubeData(tubeServices);
   const listOfServices = Object.keys(orderedTubeObject);
 
@@ -59,6 +60,9 @@ const MenuBar = () => {
         </li>
       ))
     }
+      <li>
+        <button onClick={() => setSelectedService(CYCLE_STRING)}>Cycle Hire</button>
+      </li>
     </MenuWrapper>
   );
 };

@@ -37,3 +37,10 @@ export const extractServiceDisruptionMessages = (service: TubeServiceItemType) =
 
   return disruptionMessages;
 }
+
+export const obtainCycleId = (cycleLongId: string) => {
+  const cycleIdRegex = /(\d+)/;
+  const foundId = cycleLongId?.match(cycleIdRegex);
+  if (!foundId) return cycleLongId;
+  return foundId[0];
+}

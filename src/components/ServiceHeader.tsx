@@ -35,8 +35,8 @@ const ServiceHeader = () => {
     <ServiceHeaderWrapper>
       <Header>
         {selectedService
-        ? <span>Viewing service status for the <em>{selectedService}</em> line</span>
-        : 'Please select a service to check its status'
+        ? <span>Viewing service <em>{selectedService}</em></span>
+        : 'Please select a service for more details'
         }
       </Header>
         <br />

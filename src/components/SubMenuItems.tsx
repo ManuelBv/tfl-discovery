@@ -49,7 +49,7 @@ const SubMenuWrapper = styled.ul`
 `;
 
 const SubMenuItems = ({ tubeServices }: MenuBarProps) => {
-  const { setSelectedService } = useContext(ServiceStatusContext);
+  const { selectedService, setSelectedService } = useContext(ServiceStatusContext);
   
   return (
     <SubMenuWrapper>
@@ -61,6 +61,7 @@ const SubMenuItems = ({ tubeServices }: MenuBarProps) => {
           type="radio" 
           name="serviceSelect" 
           value={item.name} 
+          checked={selectedService === item.name}
           onChange={() => setSelectedService(item.name)} />
           <label htmlFor={`input-${item.name}`} >
             {item.name}
