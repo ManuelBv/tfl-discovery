@@ -1,14 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import styled from '@emotion/styled';
 
-import { TubeServiceProps } from '../utils/types';
 import { orderRegularTubeData } from '../utils/helpers';
-
 import SubMenuItems from './SubMenuItems';
 
-export interface MenuBarProps {
-  tubeServices: TubeServiceProps;
-}
+import { ServiceStatusContext } from '../App';
 
 const MenuWrapper = styled.ul`
   list-style: none;
@@ -16,21 +12,30 @@ const MenuWrapper = styled.ul`
   background: #2D3039;
 
   > li {
-    padding: 5px;
     position: relative;
     width: 25%;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFF;
-    // background: #2D3039;
+
+    > button {
+      width: 100%;
+      height: 100%;
+      padding: 5px;
+      border: 0;
+      background: #2D3039;
+      text-align: center;
+      text-transform: uppercase;
+      color: #FFF;
+    }
 
     > ul {
       display: none;
     }
 
-    &:hover {
-      background: #6d7283;
-      font-weight: bold;
+    &:hover,
+    &:focus-within {
+      > button {
+        background: #6d7283;
+        font-weight: bold;
+      }
 
       > ul {
         display: block;
@@ -39,8 +44,8 @@ const MenuWrapper = styled.ul`
   }
 `;
 
-const MenuBar = ({ tubeServices }: MenuBarProps) => {
-  console.log('menubar services>>>', orderRegularTubeData(tubeServices));
+const MenuBar = () => {
+  const { tubeServices } = useContext(ServiceStatusContext);
   const orderedTubeObject = orderRegularTubeData(tubeServices);
   const listOfServices = Object.keys(orderedTubeObject);
 
@@ -49,13 +54,13 @@ const MenuBar = ({ tubeServices }: MenuBarProps) => {
     {
       listOfServices.map((item: string) => (
         <li key={`id-${item}`}>
-          {item}
+          <button>{item}</button>
           <SubMenuItems tubeServices={orderedTubeObject[item]} />
         </li>
       ))
     }
     </MenuWrapper>
   );
-}
+};
 
 export default MenuBar;

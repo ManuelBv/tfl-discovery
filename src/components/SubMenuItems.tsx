@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import styled from '@emotion/styled';
 
 import { TubeServiceProps } from '../utils/types';
@@ -9,9 +9,11 @@ import {
   GOOD_SERVICE_CODE,
 } from '../utils/constants';
 
+import { ServiceStatusContext } from '../App';
+
 export interface MenuBarProps {
   tubeServices: TubeServiceProps;
-}
+};
 
 const SubMenuWrapper = styled.ul`
   position: absolute;
@@ -47,13 +49,19 @@ const SubMenuWrapper = styled.ul`
 `;
 
 const SubMenuItems = ({ tubeServices }: MenuBarProps) => {
-  console.log('tubeServices', tubeServices);
+  const { setSelectedService } = useContext(ServiceStatusContext);
+  
   return (
     <SubMenuWrapper>
     {
       tubeServices.map((item) => (
         <li key={`id-${item.name}`}>
-          <input id={`input-${item.name}`} type="radio" name="serviceSelect" value={item.name} onClick={() => {}} />
+          <input 
+          id={`input-${item.name}`} 
+          type="radio" 
+          name="serviceSelect" 
+          value={item.name} 
+          onChange={() => setSelectedService(item.name)} />
           <label htmlFor={`input-${item.name}`} >
             {item.name}
             <span>{item.serviceTypes.some(item => item.name === NIGHT_SERVICE_STRING) ? NIGHT_SERVICE_ICON : ''}</span>
@@ -64,6 +72,6 @@ const SubMenuItems = ({ tubeServices }: MenuBarProps) => {
     }
     </SubMenuWrapper>
   );
-}
+};
 
 export default SubMenuItems;

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, createContext } from 'react';
 import styled from '@emotion/styled';
 import axios from 'axios';
 import './App.css';
@@ -6,7 +6,7 @@ import './App.css';
 import MenuBar  from './components/MenuBar';
 import ContentArea from './components/ContentArea';
 
-import { TubeServiceProps } from './utils/types';
+import { TubeServiceProps, TubeServiceItemType } from './utils/types';
 
 import {
   TFL_REGULAR_SERVICES_URL,
@@ -24,6 +24,12 @@ const AppWrapper = styled.div`
   }
 `;
 
+export const ServiceStatusContext = createContext({
+  selectedService: '',
+  setSelectedService: (item: string) => {},
+  tubeServices: [{} as TubeServiceItemType],
+})
+
 const App = () => {
   const initialTubeServices: TubeServiceProps = [{
     $type: '',
@@ -40,6 +46,9 @@ const App = () => {
   }];
 
   const [tubeServices, setTubeServices] = useState(initialTubeServices);
+  const [selectedService, setSelectedService] = useState('');
+
+  const myContextValue = { selectedService, setSelectedService, tubeServices };
 
   useEffect(() => {
     axios.get(TFL_REGULAR_SERVICES_URL)
@@ -49,10 +58,12 @@ const App = () => {
   }, []);
 
   return (
-    <AppWrapper>
-      <MenuBar tubeServices={tubeServices} />
-      <ContentArea name={'Lucas'} />
-    </AppWrapper>
+    <ServiceStatusContext.Provider value={myContextValue}>
+      <AppWrapper>
+        <MenuBar />
+        <ContentArea />
+      </AppWrapper>
+    </ServiceStatusContext.Provider>
   );
 }
 

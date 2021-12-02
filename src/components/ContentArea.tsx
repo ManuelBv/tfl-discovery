@@ -1,19 +1,25 @@
 import React from 'react';
+import styled from '@emotion/styled';
 
-export interface ContentAreaProps {
-  name: string;
-  age?: number;
-}
+import ServiceHeader from './ServiceHeader';
 
-const ContentArea = ({ name }: ContentAreaProps) => {
+const ContentAreaWrapper = styled.div`
+  height: 200px;
+  margin-top: 50px;
+  display: flex;
+  border-top: solid 1px #CCC;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+`;
 
-  const greeting = 'content area';
-
+const ContentArea = () => {
   return (
-    <p>
-      {name} says {greeting}
-    </p>
+    <ContentAreaWrapper>
+      <ServiceHeader />
+    </ContentAreaWrapper>
   );
-}
+};
 
 export default ContentArea;
