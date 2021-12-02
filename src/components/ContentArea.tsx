@@ -21,7 +21,7 @@ const ContentArea = () => {
   const { selectedService } = useContext(ServiceStatusContext);
 
   return (
-    <ContentAreaWrapper>
+    <ContentAreaWrapper data-test-id="content-wrapper">
       {selectedService === CYCLE_STRING ? <CycleSection /> : <ServiceHeader />}
     </ContentAreaWrapper>
   );

@@ -10,7 +10,6 @@ import { TubeServiceProps, TubeServiceItemType } from './utils/types';
 
 import {
   TFL_REGULAR_SERVICES_URL,
-  TFL_CYCLE_SERVICES_URL_PARTIAL,
 } from './utils/constants';
 
 const AppWrapper = styled.div`
@@ -57,12 +56,13 @@ const App = () => {
     axios.get(TFL_REGULAR_SERVICES_URL)
       .then(response => {
         setTubeServices(response.data);
+        console.log('testing tubeservices', response.data);
       });
   }, []);
 
   return (
     <ServiceStatusContext.Provider value={myContextValue}>
-      <AppWrapper>
+      <AppWrapper data-test-id="app-wrapper">
         <MenuBar />
         <ContentArea />
       </AppWrapper>

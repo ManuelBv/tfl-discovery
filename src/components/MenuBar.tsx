@@ -51,7 +51,7 @@ const MenuBar = () => {
   const listOfServices = Object.keys(orderedTubeObject);
 
   return (
-    <MenuWrapper>
+    <MenuWrapper data-test-id="menu-wrapper">
     {
       listOfServices.map((item: string) => (
         <li key={`id-${item}`}>

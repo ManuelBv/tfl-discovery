@@ -13,8 +13,13 @@ When contributing please use the `trunk based development` approach whereby you 
 
 # Improvemens
 A list of improvements to the project:
-- 
-
+- make app fully accessible, keyboard, screen reader
+- add Storybook and accessibility add-on
+- proper testing
+- better test coverage
+- add Github actions to setup CI/CD pipeline
+- add manual deploy branch on set environment
+- add static code analisys when creating a PR
 
 # Getting Started with Create React App
 
