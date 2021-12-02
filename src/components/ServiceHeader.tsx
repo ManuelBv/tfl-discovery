@@ -8,6 +8,8 @@ import {
   SERVICE_NO_DISRUPTIONS_MESSAGE,
   SERVICE_DISRUPTIONS_MESSAGE,
   GOOD_SERVICE_CODE,
+  SERVICE_HEADER_TEXT,
+  SERVICE_HEADER_MORE_DETAILS,
 } from '../utils/constants';
 
 const ServiceHeaderWrapper = styled.div`
@@ -29,14 +31,13 @@ const HeaderMessage = styled.p`
 const ServiceHeader = () => {
   const { selectedService, tubeServices } = useContext(ServiceStatusContext);
   const [ resultObject ] = extractServiceObject(selectedService, tubeServices);
-  console.log('found correct object', selectedService, resultObject);
 
   return (
     <ServiceHeaderWrapper>
       <Header>
         {selectedService
-        ? <span>Viewing service <em>{selectedService}</em></span>
-        : 'Please select a service for more details'
+        ? <span>{SERVICE_HEADER_TEXT}<em>{selectedService}</em></span>
+        : SERVICE_HEADER_MORE_DETAILS
         }
       </Header>
         <br />

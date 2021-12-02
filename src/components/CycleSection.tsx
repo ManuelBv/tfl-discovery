@@ -4,6 +4,10 @@ import axios from 'axios';
 
 import {
   TFL_CYCLE_SERVICES_URL_PARTIAL,
+  CYCLE_LABEL,
+  CYCLE_FOUND_RESULTS,
+  CYCLE_NO_RESULTS,
+  CYCLE_NO_SEARCH_TERMS,
 } from '../utils/constants';
 
 import { CycleHireResultsProps } from '../utils/types';
@@ -59,7 +63,6 @@ const CycleSection = () => {
 
     const result = await axios.get(`${TFL_CYCLE_SERVICES_URL_PARTIAL}${searchTerm}`);
     let { data } = await result;
-    console.log('data from axios', data);
     if (!data?.length) {
       data = initialResult;
     }
@@ -71,14 +74,14 @@ const CycleSection = () => {
   return (
     <CycleAreaWrapper>
       <CycleHeader>
-        <label htmlFor="cycle-search">Check Cycle Hire points </label> 
+        <label htmlFor="cycle-search">{ CYCLE_LABEL }</label> 
         <input type="text" id="cycle-search"  value={searchTerm} onChange={(e) => searchCyclePoints(e.target.value)} />
       </CycleHeader>
       <CycleResults>
         {
           results[0].id !== ''
-          ? <span>Found: {results.length} results!</span>
-          : <span>{searchTerm ? <span>No results found for <strong>{searchTerm}</strong></span> : 'No search terms used'}!</span>
+          ? <span>{CYCLE_FOUND_RESULTS} {results.length}</span>
+          : <span>{searchTerm ? <span>{CYCLE_NO_RESULTS} <strong>{searchTerm}</strong></span> : CYCLE_NO_SEARCH_TERMS}!</span>
         }
         <br />
         {

@@ -1,0 +1,3444 @@
+[{
+  "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+  "id": "bakerloo",
+  "name": "Bakerloo",
+  "modeName": "tube",
+  "disruptions": [],
+  "created": "2021-11-20T15:09:27.077Z",
+  "modified": "2021-11-20T15:09:27.077Z",
+  "lineStatuses": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+    "id": 0,
+    "statusSeverity": 10,
+    "statusSeverityDescription": "Good Service",
+    "created": "0001-01-01T00:00:00",
+    "validityPeriods": []
+  }],
+  "routeSections": [],
+  "serviceTypes": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+    "name": "Regular",
+    "uri": "/Line/Route?ids=Bakerloo&serviceTypes=Regular"
+  }],
+  "crowding": {
+    "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+  }
+}, {
+  "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+  "id": "central",
+  "name": "Central",
+  "modeName": "tube",
+  "disruptions": [],
+  "created": "2021-11-20T15:09:27.063Z",
+  "modified": "2021-11-20T15:09:27.063Z",
+  "lineStatuses": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+    "id": 0,
+    "statusSeverity": 10,
+    "statusSeverityDescription": "Good Service",
+    "created": "0001-01-01T00:00:00",
+    "validityPeriods": []
+  }],
+  "routeSections": [],
+  "serviceTypes": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+    "name": "Regular",
+    "uri": "/Line/Route?ids=Central&serviceTypes=Regular"
+  }, {
+    "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+    "name": "Night",
+    "uri": "/Line/Route?ids=Central&serviceTypes=Night"
+  }],
+  "crowding": {
+    "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+  }
+}, {
+  "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+  "id": "circle",
+  "name": "Circle",
+  "modeName": "tube",
+  "disruptions": [],
+  "created": "2021-11-20T15:09:27.077Z",
+  "modified": "2021-11-20T15:09:27.077Z",
+  "lineStatuses": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+    "id": 0,
+    "statusSeverity": 10,
+    "statusSeverityDescription": "Good Service",
+    "created": "0001-01-01T00:00:00",
+    "validityPeriods": []
+  }],
+  "routeSections": [],
+  "serviceTypes": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+    "name": "Regular",
+    "uri": "/Line/Route?ids=Circle&serviceTypes=Regular"
+  }],
+  "crowding": {
+    "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+  }
+}, {
+  "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+  "id": "district",
+  "name": "District",
+  "modeName": "tube",
+  "disruptions": [],
+  "created": "2021-11-20T15:09:27.063Z",
+  "modified": "2021-11-20T15:09:27.063Z",
+  "lineStatuses": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+    "id": 0,
+    "statusSeverity": 10,
+    "statusSeverityDescription": "Good Service",
+    "created": "0001-01-01T00:00:00",
+    "validityPeriods": []
+  }],
+  "routeSections": [],
+  "serviceTypes": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+    "name": "Regular",
+    "uri": "/Line/Route?ids=District&serviceTypes=Regular"
+  }],
+  "crowding": {
+    "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+  }
+}, {
+  "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+  "id": "dlr",
+  "name": "DLR",
+  "modeName": "dlr",
+  "disruptions": [],
+  "created": "2021-11-20T15:09:27.063Z",
+  "modified": "2021-11-20T15:09:27.063Z",
+  "lineStatuses": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+    "id": 0,
+    "statusSeverity": 10,
+    "statusSeverityDescription": "Good Service",
+    "created": "0001-01-01T00:00:00",
+    "validityPeriods": []
+  }],
+  "routeSections": [],
+  "serviceTypes": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+    "name": "Regular",
+    "uri": "/Line/Route?ids=DLR&serviceTypes=Regular"
+  }],
+  "crowding": {
+    "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+  }
+}, {
+  "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+  "id": "hammersmith-city",
+  "name": "Hammersmith & City",
+  "modeName": "tube",
+  "disruptions": [],
+  "created": "2021-11-20T15:09:27.063Z",
+  "modified": "2021-11-20T15:09:27.063Z",
+  "lineStatuses": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+    "id": 0,
+    "statusSeverity": 10,
+    "statusSeverityDescription": "Good Service",
+    "created": "0001-01-01T00:00:00",
+    "validityPeriods": []
+  }],
+  "routeSections": [],
+  "serviceTypes": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+    "name": "Regular",
+    "uri": "/Line/Route?ids=Hammersmith & City&serviceTypes=Regular"
+  }],
+  "crowding": {
+    "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+  }
+}, {
+  "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+  "id": "jubilee",
+  "name": "Jubilee",
+  "modeName": "tube",
+  "disruptions": [],
+  "created": "2021-11-20T15:09:27.077Z",
+  "modified": "2021-11-20T15:09:27.077Z",
+  "lineStatuses": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+    "id": 0,
+    "statusSeverity": 10,
+    "statusSeverityDescription": "Good Service",
+    "created": "0001-01-01T00:00:00",
+    "validityPeriods": []
+  }],
+  "routeSections": [],
+  "serviceTypes": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+    "name": "Regular",
+    "uri": "/Line/Route?ids=Jubilee&serviceTypes=Regular"
+  }, {
+    "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+    "name": "Night",
+    "uri": "/Line/Route?ids=Jubilee&serviceTypes=Night"
+  }],
+  "crowding": {
+    "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+  }
+}, {
+  "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+  "id": "london-overground",
+  "name": "London Overground",
+  "modeName": "overground",
+  "disruptions": [],
+  "created": "2021-11-20T15:09:27.063Z",
+  "modified": "2021-11-20T15:09:27.063Z",
+  "lineStatuses": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+    "id": 0,
+    "lineId": "london-overground",
+    "statusSeverity": 5,
+    "statusSeverityDescription": "Part Closure",
+    "reason": "LONDON OVERGROUND: Sunday 28, Monday 29, Tuesday 30 November, Wednesday 1 and Thursday 2 December, from 2245 each night, no service between Hackney Downs and Chingford. Use London Underground connections between Liverpool Street and Walthamstow Central. Replacement buses operate.",
+    "created": "0001-01-01T00:00:00",
+    "validityPeriods": [{
+      "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+      "fromDate": "2021-12-01T22:45:00Z",
+      "toDate": "2021-12-01T23:59:00Z",
+      "isNow": false
+    }],
+    "disruption": {
+      "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+      "category": "PlannedWork",
+      "categoryDescription": "PlannedWork",
+      "description": "LONDON OVERGROUND: Sunday 28, Monday 29, Tuesday 30 November, Wednesday 1 and Thursday 2 December, from 2245 each night, no service between Hackney Downs and Chingford. Use London Underground connections between Liverpool Street and Walthamstow Central. Replacement buses operate.",
+      "additionalInfo": "Replacement buses operateService L3: Hackney Downs - Clapton - St James Street - Walthamstow Central - Wood Street - Highams Park - Chingford",
+      "created": "2021-04-07T09:23:00Z",
+      "affectedRoutes": [{
+        "$type": "Tfl.Api.Presentation.Entities.RouteSection, Tfl.Api.Presentation.Entities",
+        "id": "71",
+        "name": "Chingford Rail Station - London Liverpool Street Rail Station",
+        "direction": "inbound",
+        "originationName": "Chingford Rail Station",
+        "destinationName": "London Liverpool Street Rail Station",
+        "routeSectionNaptanEntrySequence": [{
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 0,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GCHINGFD",
+            "modes": [],
+            "icsCode": "1001063",
+            "stationNaptan": "910GCHINGFD",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GCHINGFD",
+            "commonName": "Chingford Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 1,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GHGHMSPK",
+            "modes": [],
+            "icsCode": "1001150",
+            "stationNaptan": "910GHGHMSPK",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GHGHMSPK",
+            "commonName": "Highams Park Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 2,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GWDST",
+            "modes": [],
+            "icsCode": "1001343",
+            "stationNaptan": "910GWDST",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GWDST",
+            "commonName": "Wood Street Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 3,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GWLTWCEN",
+            "modes": [],
+            "icsCode": "1000249",
+            "stationNaptan": "910GWLTWCEN",
+            "hubNaptanCode": "HUBWHC",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GWLTWCEN",
+            "commonName": "Walthamstow Central Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 4,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GSTJMSST",
+            "modes": [],
+            "icsCode": "1001268",
+            "stationNaptan": "910GSTJMSST",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GSTJMSST",
+            "commonName": "St James Street (London) Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 5,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GCLAPTON",
+            "modes": [],
+            "icsCode": "1001070",
+            "stationNaptan": "910GCLAPTON",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GCLAPTON",
+            "commonName": "Clapton Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 6,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GHAKNYNM",
+            "modes": [],
+            "icsCode": "1001128",
+            "stationNaptan": "910GHAKNYNM",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GHAKNYNM",
+            "commonName": "Hackney Downs Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 7,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GLONFLDS",
+            "modes": [],
+            "icsCode": "1001183",
+            "stationNaptan": "910GLONFLDS",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GLONFLDS",
+            "commonName": "London Fields Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 8,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GCAMHTH",
+            "modes": [],
+            "icsCode": "1001044",
+            "stationNaptan": "910GCAMHTH",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GCAMHTH",
+            "commonName": "Cambridge Heath (London) Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 9,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GBTHNLGR",
+            "modes": [],
+            "icsCode": "1001023",
+            "stationNaptan": "910GBTHNLGR",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GBTHNLGR",
+            "commonName": "Bethnal Green Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 10,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GLIVST",
+            "modes": [],
+            "icsCode": "1000138",
+            "stationNaptan": "910GLIVST",
+            "hubNaptanCode": "HUBLST",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GLIVST",
+            "commonName": "London Liverpool Street Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }]
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.RouteSection, Tfl.Api.Presentation.Entities",
+        "id": "72",
+        "name": "London Liverpool Street Rail Station - Chingford Rail Station",
+        "direction": "outbound",
+        "originationName": "London Liverpool Street Rail Station",
+        "destinationName": "Chingford Rail Station",
+        "routeSectionNaptanEntrySequence": [{
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 0,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GLIVST",
+            "modes": [],
+            "icsCode": "1000138",
+            "stationNaptan": "910GLIVST",
+            "hubNaptanCode": "HUBLST",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GLIVST",
+            "commonName": "London Liverpool Street Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 1,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GBTHNLGR",
+            "modes": [],
+            "icsCode": "1001023",
+            "stationNaptan": "910GBTHNLGR",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GBTHNLGR",
+            "commonName": "Bethnal Green Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 2,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GCAMHTH",
+            "modes": [],
+            "icsCode": "1001044",
+            "stationNaptan": "910GCAMHTH",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GCAMHTH",
+            "commonName": "Cambridge Heath (London) Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 3,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GLONFLDS",
+            "modes": [],
+            "icsCode": "1001183",
+            "stationNaptan": "910GLONFLDS",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GLONFLDS",
+            "commonName": "London Fields Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 4,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GHAKNYNM",
+            "modes": [],
+            "icsCode": "1001128",
+            "stationNaptan": "910GHAKNYNM",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GHAKNYNM",
+            "commonName": "Hackney Downs Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 5,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GCLAPTON",
+            "modes": [],
+            "icsCode": "1001070",
+            "stationNaptan": "910GCLAPTON",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GCLAPTON",
+            "commonName": "Clapton Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 6,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GSTJMSST",
+            "modes": [],
+            "icsCode": "1001268",
+            "stationNaptan": "910GSTJMSST",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GSTJMSST",
+            "commonName": "St James Street (London) Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 7,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GWLTWCEN",
+            "modes": [],
+            "icsCode": "1000249",
+            "stationNaptan": "910GWLTWCEN",
+            "hubNaptanCode": "HUBWHC",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GWLTWCEN",
+            "commonName": "Walthamstow Central Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 8,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GWDST",
+            "modes": [],
+            "icsCode": "1001343",
+            "stationNaptan": "910GWDST",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GWDST",
+            "commonName": "Wood Street Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 9,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GHGHMSPK",
+            "modes": [],
+            "icsCode": "1001150",
+            "stationNaptan": "910GHGHMSPK",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GHGHMSPK",
+            "commonName": "Highams Park Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 10,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GCHINGFD",
+            "modes": [],
+            "icsCode": "1001063",
+            "stationNaptan": "910GCHINGFD",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GCHINGFD",
+            "commonName": "Chingford Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }]
+      }],
+      "affectedStops": [{
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "910GBTHNLGR",
+        "stationNaptan": "910GBTHNLGR",
+        "status": true,
+        "id": "910GBTHNLGR",
+        "commonName": "Bethnal Green Rail Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "910GCAMHTH",
+        "stationNaptan": "910GCAMHTH",
+        "status": true,
+        "id": "910GCAMHTH",
+        "commonName": "Cambridge Heath (London) Rail Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "910GCHINGFD",
+        "stationNaptan": "910GCHINGFD",
+        "status": true,
+        "id": "910GCHINGFD",
+        "commonName": "Chingford Rail Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "910GCLAPTON",
+        "stationNaptan": "910GCLAPTON",
+        "status": true,
+        "id": "910GCLAPTON",
+        "commonName": "Clapton Rail Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "910GHAKNYNM",
+        "stationNaptan": "910GHAKNYNM",
+        "status": true,
+        "id": "910GHAKNYNM",
+        "commonName": "Hackney Downs Rail Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "910GHGHMSPK",
+        "stationNaptan": "910GHGHMSPK",
+        "status": true,
+        "id": "910GHGHMSPK",
+        "commonName": "Highams Park Rail Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "910GLIVST",
+        "stationNaptan": "910GLIVST",
+        "status": true,
+        "id": "910GLIVST",
+        "commonName": "London Liverpool Street Rail Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "910GLONFLDS",
+        "stationNaptan": "910GLONFLDS",
+        "status": true,
+        "id": "910GLONFLDS",
+        "commonName": "London Fields Rail Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "910GSTJMSST",
+        "stationNaptan": "910GSTJMSST",
+        "status": true,
+        "id": "910GSTJMSST",
+        "commonName": "St James Street (London) Rail Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "910GWDST",
+        "stationNaptan": "910GWDST",
+        "status": true,
+        "id": "910GWDST",
+        "commonName": "Wood Street Rail Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "910GWLTWCEN",
+        "stationNaptan": "910GWLTWCEN",
+        "status": true,
+        "id": "910GWLTWCEN",
+        "commonName": "Walthamstow Central Rail Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }],
+      "closureText": "partClosure"
+    }
+  }, {
+    "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+    "id": 0,
+    "lineId": "london-overground",
+    "statusSeverity": 7,
+    "statusSeverityDescription": "Reduced Service",
+    "reason": "Changes to Gospel Oak to Barking services on Wednesday 1 and Thursday 2 December: The 2250 from Gospel Oak to Barking and the 2330 Barking to Gospel Oak trains will not run.",
+    "created": "0001-01-01T00:00:00",
+    "validityPeriods": [{
+      "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+      "fromDate": "2021-12-01T22:30:00Z",
+      "toDate": "2021-12-01T23:59:00Z",
+      "isNow": false
+    }],
+    "disruption": {
+      "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+      "category": "PlannedWork",
+      "categoryDescription": "PlannedWork",
+      "description": "Changes to Gospel Oak to Barking services on Wednesday 1 and Thursday 2 December: The 2250 from Gospel Oak to Barking and the 2330 Barking to Gospel Oak trains will not run.",
+      "created": "2021-10-22T11:43:00Z",
+      "affectedRoutes": [{
+        "$type": "Tfl.Api.Presentation.Entities.RouteSection, Tfl.Api.Presentation.Entities",
+        "id": "1878",
+        "name": "Barking Rail Station - Gospel Oak Rail Station",
+        "direction": "inbound",
+        "originationName": "Barking Rail Station",
+        "destinationName": "Gospel Oak Rail Station",
+        "routeSectionNaptanEntrySequence": [{
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 0,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GBARKING",
+            "modes": [],
+            "icsCode": "1000015",
+            "stationNaptan": "910GBARKING",
+            "hubNaptanCode": "HUBBKG",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GBARKING",
+            "commonName": "Barking Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 1,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GWDGRNPK",
+            "modes": [],
+            "icsCode": "1001341",
+            "stationNaptan": "910GWDGRNPK",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GWDGRNPK",
+            "commonName": "Woodgrange Park Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 2,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GWNSTDPK",
+            "modes": [],
+            "icsCode": "1001312",
+            "stationNaptan": "910GWNSTDPK",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GWNSTDPK",
+            "commonName": "Wanstead Park Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 3,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GLYTNSHR",
+            "modes": [],
+            "icsCode": "1001179",
+            "stationNaptan": "910GLYTNSHR",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GLYTNSHR",
+            "commonName": "Leytonstone High Road Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 4,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GLEYTNMR",
+            "modes": [],
+            "icsCode": "1001178",
+            "stationNaptan": "910GLEYTNMR",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GLEYTNMR",
+            "commonName": "Leyton Midland Road Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 5,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GWLTHQRD",
+            "modes": [],
+            "icsCode": "1001308",
+            "stationNaptan": "910GWLTHQRD",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GWLTHQRD",
+            "commonName": "Walthamstow Queens Road Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 6,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GBLCHSRD",
+            "modes": [],
+            "icsCode": "1000024",
+            "stationNaptan": "910GBLCHSRD",
+            "hubNaptanCode": "HUBBHO",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GBLCHSRD",
+            "commonName": "Blackhorse Road Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 7,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GSTOTNHM",
+            "modes": [],
+            "icsCode": "1001264",
+            "stationNaptan": "910GSTOTNHM",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GSTOTNHM",
+            "commonName": "South Tottenham Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 8,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GHRGYGL",
+            "modes": [],
+            "icsCode": "1001139",
+            "stationNaptan": "910GHRGYGL",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GHRGYGL",
+            "commonName": "Harringay Green Lanes Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 9,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GCROUCHH",
+            "modes": [],
+            "icsCode": "1001077",
+            "stationNaptan": "910GCROUCHH",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GCROUCHH",
+            "commonName": "Crouch Hill Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 10,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GUPRHLWY",
+            "modes": [],
+            "icsCode": "1001302",
+            "stationNaptan": "910GUPRHLWY",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GUPRHLWY",
+            "commonName": "Upper Holloway Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 11,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GGOSPLOK",
+            "modes": [],
+            "icsCode": "1001119",
+            "stationNaptan": "910GGOSPLOK",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GGOSPLOK",
+            "commonName": "Gospel Oak Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }]
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.RouteSection, Tfl.Api.Presentation.Entities",
+        "id": "1879",
+        "name": "Gospel Oak Rail Station - Barking Rail Station",
+        "direction": "outbound",
+        "originationName": "Gospel Oak Rail Station",
+        "destinationName": "Barking Rail Station",
+        "routeSectionNaptanEntrySequence": [{
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 0,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GGOSPLOK",
+            "modes": [],
+            "icsCode": "1001119",
+            "stationNaptan": "910GGOSPLOK",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GGOSPLOK",
+            "commonName": "Gospel Oak Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 1,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GUPRHLWY",
+            "modes": [],
+            "icsCode": "1001302",
+            "stationNaptan": "910GUPRHLWY",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GUPRHLWY",
+            "commonName": "Upper Holloway Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 2,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GCROUCHH",
+            "modes": [],
+            "icsCode": "1001077",
+            "stationNaptan": "910GCROUCHH",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GCROUCHH",
+            "commonName": "Crouch Hill Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 3,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GHRGYGL",
+            "modes": [],
+            "icsCode": "1001139",
+            "stationNaptan": "910GHRGYGL",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GHRGYGL",
+            "commonName": "Harringay Green Lanes Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 4,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GSTOTNHM",
+            "modes": [],
+            "icsCode": "1001264",
+            "stationNaptan": "910GSTOTNHM",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GSTOTNHM",
+            "commonName": "South Tottenham Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 5,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GBLCHSRD",
+            "modes": [],
+            "icsCode": "1000024",
+            "stationNaptan": "910GBLCHSRD",
+            "hubNaptanCode": "HUBBHO",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GBLCHSRD",
+            "commonName": "Blackhorse Road Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 6,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GWLTHQRD",
+            "modes": [],
+            "icsCode": "1001308",
+            "stationNaptan": "910GWLTHQRD",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GWLTHQRD",
+            "commonName": "Walthamstow Queens Road Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 7,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GLEYTNMR",
+            "modes": [],
+            "icsCode": "1001178",
+            "stationNaptan": "910GLEYTNMR",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GLEYTNMR",
+            "commonName": "Leyton Midland Road Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 8,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GLYTNSHR",
+            "modes": [],
+            "icsCode": "1001179",
+            "stationNaptan": "910GLYTNSHR",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GLYTNSHR",
+            "commonName": "Leytonstone High Road Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 9,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GWNSTDPK",
+            "modes": [],
+            "icsCode": "1001312",
+            "stationNaptan": "910GWNSTDPK",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GWNSTDPK",
+            "commonName": "Wanstead Park Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 10,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GWDGRNPK",
+            "modes": [],
+            "icsCode": "1001341",
+            "stationNaptan": "910GWDGRNPK",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GWDGRNPK",
+            "commonName": "Woodgrange Park Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 11,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GBARKING",
+            "modes": [],
+            "icsCode": "1000015",
+            "stationNaptan": "910GBARKING",
+            "hubNaptanCode": "HUBBKG",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "910GBARKING",
+            "commonName": "Barking Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }]
+      }],
+      "affectedStops": [{
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "910GBARKING",
+        "stationNaptan": "910GBARKING",
+        "status": true,
+        "id": "910GBARKING",
+        "commonName": "Barking Rail Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "910GBLCHSRD",
+        "stationNaptan": "910GBLCHSRD",
+        "status": true,
+        "id": "910GBLCHSRD",
+        "commonName": "Blackhorse Road Rail Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "910GCROUCHH",
+        "stationNaptan": "910GCROUCHH",
+        "status": true,
+        "id": "910GCROUCHH",
+        "commonName": "Crouch Hill Rail Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "910GGOSPLOK",
+        "stationNaptan": "910GGOSPLOK",
+        "status": true,
+        "id": "910GGOSPLOK",
+        "commonName": "Gospel Oak Rail Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "910GHRGYGL",
+        "stationNaptan": "910GHRGYGL",
+        "status": true,
+        "id": "910GHRGYGL",
+        "commonName": "Harringay Green Lanes Rail Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "910GLEYTNMR",
+        "stationNaptan": "910GLEYTNMR",
+        "status": true,
+        "id": "910GLEYTNMR",
+        "commonName": "Leyton Midland Road Rail Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "910GLYTNSHR",
+        "stationNaptan": "910GLYTNSHR",
+        "status": true,
+        "id": "910GLYTNSHR",
+        "commonName": "Leytonstone High Road Rail Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "910GSTOTNHM",
+        "stationNaptan": "910GSTOTNHM",
+        "status": true,
+        "id": "910GSTOTNHM",
+        "commonName": "South Tottenham Rail Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "910GUPRHLWY",
+        "stationNaptan": "910GUPRHLWY",
+        "status": true,
+        "id": "910GUPRHLWY",
+        "commonName": "Upper Holloway Rail Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "910GWDGRNPK",
+        "stationNaptan": "910GWDGRNPK",
+        "status": true,
+        "id": "910GWDGRNPK",
+        "commonName": "Woodgrange Park Rail Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "910GWLTHQRD",
+        "stationNaptan": "910GWLTHQRD",
+        "status": true,
+        "id": "910GWLTHQRD",
+        "commonName": "Walthamstow Queens Road Rail Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "910GWNSTDPK",
+        "stationNaptan": "910GWNSTDPK",
+        "status": true,
+        "id": "910GWNSTDPK",
+        "commonName": "Wanstead Park Rail Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }],
+      "closureText": "reducedService"
+    }
+  }],
+  "routeSections": [{
+    "$type": "Tfl.Api.Presentation.Entities.MatchedRoute, Tfl.Api.Presentation.Entities",
+    "name": "Chingford Rail Station - London Liverpool Street Rail Station",
+    "direction": "inbound",
+    "originationName": "Chingford Rail Station",
+    "destinationName": "London Liverpool Street Rail Station",
+    "originator": "910GCHINGFD",
+    "destination": "910GLIVST",
+    "serviceType": "Regular",
+    "validTo": "2022-12-23T00:00:00Z",
+    "validFrom": "2021-10-16T00:00:00Z"
+  }, {
+    "$type": "Tfl.Api.Presentation.Entities.MatchedRoute, Tfl.Api.Presentation.Entities",
+    "name": "London Liverpool Street Rail Station - Chingford Rail Station",
+    "direction": "outbound",
+    "originationName": "London Liverpool Street Rail Station",
+    "destinationName": "Chingford Rail Station",
+    "originator": "910GLIVST",
+    "destination": "910GCHINGFD",
+    "serviceType": "Regular",
+    "validTo": "2022-12-23T00:00:00Z",
+    "validFrom": "2021-10-16T00:00:00Z"
+  }, {
+    "$type": "Tfl.Api.Presentation.Entities.MatchedRoute, Tfl.Api.Presentation.Entities",
+    "name": "Barking Rail Station - Gospel Oak Rail Station",
+    "direction": "inbound",
+    "originationName": "Barking Rail Station",
+    "destinationName": "Gospel Oak Rail Station",
+    "originator": "910GBARKING",
+    "destination": "910GGOSPLOK",
+    "serviceType": "Regular",
+    "validTo": "2022-12-23T00:00:00Z",
+    "validFrom": "2021-10-16T00:00:00Z"
+  }, {
+    "$type": "Tfl.Api.Presentation.Entities.MatchedRoute, Tfl.Api.Presentation.Entities",
+    "name": "Gospel Oak Rail Station - Barking Rail Station",
+    "direction": "outbound",
+    "originationName": "Gospel Oak Rail Station",
+    "destinationName": "Barking Rail Station",
+    "originator": "910GGOSPLOK",
+    "destination": "910GBARKING",
+    "serviceType": "Regular",
+    "validTo": "2022-12-23T00:00:00Z",
+    "validFrom": "2021-10-16T00:00:00Z"
+  }],
+  "serviceTypes": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+    "name": "Regular",
+    "uri": "/Line/Route?ids=London Overground&serviceTypes=Regular"
+  }, {
+    "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+    "name": "Night",
+    "uri": "/Line/Route?ids=London Overground&serviceTypes=Night"
+  }],
+  "crowding": {
+    "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+  }
+}, {
+  "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+  "id": "metropolitan",
+  "name": "Metropolitan",
+  "modeName": "tube",
+  "disruptions": [],
+  "created": "2021-11-20T15:09:27.063Z",
+  "modified": "2021-11-20T15:09:27.063Z",
+  "lineStatuses": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+    "id": 0,
+    "statusSeverity": 10,
+    "statusSeverityDescription": "Good Service",
+    "created": "0001-01-01T00:00:00",
+    "validityPeriods": []
+  }],
+  "routeSections": [],
+  "serviceTypes": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+    "name": "Regular",
+    "uri": "/Line/Route?ids=Metropolitan&serviceTypes=Regular"
+  }],
+  "crowding": {
+    "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+  }
+}, {
+  "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+  "id": "northern",
+  "name": "Northern",
+  "modeName": "tube",
+  "disruptions": [],
+  "created": "2021-11-20T15:09:27.063Z",
+  "modified": "2021-11-20T15:09:27.063Z",
+  "lineStatuses": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+    "id": 0,
+    "statusSeverity": 10,
+    "statusSeverityDescription": "Good Service",
+    "created": "0001-01-01T00:00:00",
+    "validityPeriods": []
+  }],
+  "routeSections": [],
+  "serviceTypes": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+    "name": "Regular",
+    "uri": "/Line/Route?ids=Northern&serviceTypes=Regular"
+  }, {
+    "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+    "name": "Night",
+    "uri": "/Line/Route?ids=Northern&serviceTypes=Night"
+  }],
+  "crowding": {
+    "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+  }
+}, {
+  "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+  "id": "piccadilly",
+  "name": "Piccadilly",
+  "modeName": "tube",
+  "disruptions": [],
+  "created": "2021-11-20T15:09:27.063Z",
+  "modified": "2021-11-20T15:09:27.063Z",
+  "lineStatuses": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+    "id": 0,
+    "lineId": "piccadilly",
+    "statusSeverity": 9,
+    "statusSeverityDescription": "Minor Delays",
+    "reason": "Piccadilly Line: No service between Rayners Lane and Uxbridge, due to difficult track conditions caused by significant leaf fall. Please use the Metropolitan line to complete your journey. MINOR DELAYS between Acton Town and Rayners Lane. GOOD SERVICE on the rest of the line ",
+    "created": "0001-01-01T00:00:00",
+    "validityPeriods": [{
+      "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+      "fromDate": "2021-12-01T14:02:04Z",
+      "toDate": "2021-12-02T01:29:00Z",
+      "isNow": true
+    }],
+    "disruption": {
+      "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+      "category": "RealTime",
+      "categoryDescription": "RealTime",
+      "description": "Piccadilly Line: No service between Rayners Lane and Uxbridge, due to difficult track conditions caused by significant leaf fall. Please use the Metropolitan line to complete your journey. MINOR DELAYS between Acton Town and Rayners Lane. GOOD SERVICE on the rest of the line ",
+      "affectedRoutes": [{
+        "$type": "Tfl.Api.Presentation.Entities.RouteSection, Tfl.Api.Presentation.Entities",
+        "id": "1758",
+        "name": "Cockfosters Underground Station - Uxbridge Underground Station",
+        "direction": "inbound",
+        "originationName": "Cockfosters Underground Station",
+        "destinationName": "Uxbridge Underground Station",
+        "routeSectionNaptanEntrySequence": [{
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 27,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUACT",
+            "modes": [],
+            "icsCode": "1000002",
+            "stationNaptan": "940GZZLUACT",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUACT",
+            "commonName": "Acton Town Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 28,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUECM",
+            "modes": [],
+            "icsCode": "1000063",
+            "stationNaptan": "940GZZLUECM",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUECM",
+            "commonName": "Ealing Common Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 29,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUNEN",
+            "modes": [],
+            "icsCode": "1000158",
+            "stationNaptan": "940GZZLUNEN",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUNEN",
+            "commonName": "North Ealing Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 30,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUPKR",
+            "modes": [],
+            "icsCode": "1000176",
+            "stationNaptan": "940GZZLUPKR",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUPKR",
+            "commonName": "Park Royal Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 31,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUALP",
+            "modes": [],
+            "icsCode": "1000005",
+            "stationNaptan": "940GZZLUALP",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUALP",
+            "commonName": "Alperton Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 32,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUSUT",
+            "modes": [],
+            "icsCode": "1000228",
+            "stationNaptan": "940GZZLUSUT",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUSUT",
+            "commonName": "Sudbury Town Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 33,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUSUH",
+            "modes": [],
+            "icsCode": "1000227",
+            "stationNaptan": "940GZZLUSUH",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUSUH",
+            "commonName": "Sudbury Hill Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 34,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUSHH",
+            "modes": [],
+            "icsCode": "1000211",
+            "stationNaptan": "940GZZLUSHH",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUSHH",
+            "commonName": "South Harrow Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 35,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLURYL",
+            "modes": [],
+            "icsCode": "1000189",
+            "stationNaptan": "940GZZLURYL",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLURYL",
+            "commonName": "Rayners Lane Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }]
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.RouteSection, Tfl.Api.Presentation.Entities",
+        "id": "1759",
+        "name": "Uxbridge Underground Station - Cockfosters Underground Station",
+        "direction": "outbound",
+        "originationName": "Uxbridge Underground Station",
+        "destinationName": "Cockfosters Underground Station",
+        "routeSectionNaptanEntrySequence": [{
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 6,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLURYL",
+            "modes": [],
+            "icsCode": "1000189",
+            "stationNaptan": "940GZZLURYL",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLURYL",
+            "commonName": "Rayners Lane Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 7,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUSHH",
+            "modes": [],
+            "icsCode": "1000211",
+            "stationNaptan": "940GZZLUSHH",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUSHH",
+            "commonName": "South Harrow Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 8,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUSUH",
+            "modes": [],
+            "icsCode": "1000227",
+            "stationNaptan": "940GZZLUSUH",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUSUH",
+            "commonName": "Sudbury Hill Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 9,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUSUT",
+            "modes": [],
+            "icsCode": "1000228",
+            "stationNaptan": "940GZZLUSUT",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUSUT",
+            "commonName": "Sudbury Town Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 10,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUALP",
+            "modes": [],
+            "icsCode": "1000005",
+            "stationNaptan": "940GZZLUALP",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUALP",
+            "commonName": "Alperton Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 11,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUPKR",
+            "modes": [],
+            "icsCode": "1000176",
+            "stationNaptan": "940GZZLUPKR",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUPKR",
+            "commonName": "Park Royal Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 12,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUNEN",
+            "modes": [],
+            "icsCode": "1000158",
+            "stationNaptan": "940GZZLUNEN",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUNEN",
+            "commonName": "North Ealing Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 13,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUECM",
+            "modes": [],
+            "icsCode": "1000063",
+            "stationNaptan": "940GZZLUECM",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUECM",
+            "commonName": "Ealing Common Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 14,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUACT",
+            "modes": [],
+            "icsCode": "1000002",
+            "stationNaptan": "940GZZLUACT",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUACT",
+            "commonName": "Acton Town Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }]
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.RouteSection, Tfl.Api.Presentation.Entities",
+        "id": "1760",
+        "name": "Cockfosters Underground Station - Heathrow Terminal 5 Underground Station",
+        "direction": "inbound",
+        "originationName": "Cockfosters Underground Station",
+        "destinationName": "Heathrow Terminal 5 Underground Station",
+        "routeSectionNaptanEntrySequence": [{
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 27,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUACT",
+            "modes": [],
+            "icsCode": "1000002",
+            "stationNaptan": "940GZZLUACT",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUACT",
+            "commonName": "Acton Town Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }]
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.RouteSection, Tfl.Api.Presentation.Entities",
+        "id": "1761",
+        "name": "Heathrow Terminal 5 Underground Station - Cockfosters Underground Station",
+        "direction": "outbound",
+        "originationName": "Heathrow Terminal 5 Underground Station",
+        "destinationName": "Cockfosters Underground Station",
+        "routeSectionNaptanEntrySequence": [{
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 10,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUACT",
+            "modes": [],
+            "icsCode": "1000002",
+            "stationNaptan": "940GZZLUACT",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUACT",
+            "commonName": "Acton Town Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }]
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.RouteSection, Tfl.Api.Presentation.Entities",
+        "id": "1020",
+        "name": "Cockfosters Underground Station - Uxbridge Underground Station",
+        "direction": "inbound",
+        "originationName": "Cockfosters Underground Station",
+        "destinationName": "Uxbridge Underground Station",
+        "routeSectionNaptanEntrySequence": [{
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 27,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUACT",
+            "modes": [],
+            "icsCode": "1000002",
+            "stationNaptan": "940GZZLUACT",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUACT",
+            "commonName": "Acton Town Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 28,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUECM",
+            "modes": [],
+            "icsCode": "1000063",
+            "stationNaptan": "940GZZLUECM",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUECM",
+            "commonName": "Ealing Common Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 29,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUNEN",
+            "modes": [],
+            "icsCode": "1000158",
+            "stationNaptan": "940GZZLUNEN",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUNEN",
+            "commonName": "North Ealing Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 30,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUPKR",
+            "modes": [],
+            "icsCode": "1000176",
+            "stationNaptan": "940GZZLUPKR",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUPKR",
+            "commonName": "Park Royal Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 31,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUALP",
+            "modes": [],
+            "icsCode": "1000005",
+            "stationNaptan": "940GZZLUALP",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUALP",
+            "commonName": "Alperton Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 32,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUSUT",
+            "modes": [],
+            "icsCode": "1000228",
+            "stationNaptan": "940GZZLUSUT",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUSUT",
+            "commonName": "Sudbury Town Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 33,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUSUH",
+            "modes": [],
+            "icsCode": "1000227",
+            "stationNaptan": "940GZZLUSUH",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUSUH",
+            "commonName": "Sudbury Hill Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 34,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUSHH",
+            "modes": [],
+            "icsCode": "1000211",
+            "stationNaptan": "940GZZLUSHH",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUSHH",
+            "commonName": "South Harrow Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 35,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLURYL",
+            "modes": [],
+            "icsCode": "1000189",
+            "stationNaptan": "940GZZLURYL",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLURYL",
+            "commonName": "Rayners Lane Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }]
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.RouteSection, Tfl.Api.Presentation.Entities",
+        "id": "1021",
+        "name": "Uxbridge Underground Station - Cockfosters Underground Station",
+        "direction": "outbound",
+        "originationName": "Uxbridge Underground Station",
+        "destinationName": "Cockfosters Underground Station",
+        "routeSectionNaptanEntrySequence": [{
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 6,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLURYL",
+            "modes": [],
+            "icsCode": "1000189",
+            "stationNaptan": "940GZZLURYL",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLURYL",
+            "commonName": "Rayners Lane Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 7,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUSHH",
+            "modes": [],
+            "icsCode": "1000211",
+            "stationNaptan": "940GZZLUSHH",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUSHH",
+            "commonName": "South Harrow Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 8,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUSUH",
+            "modes": [],
+            "icsCode": "1000227",
+            "stationNaptan": "940GZZLUSUH",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUSUH",
+            "commonName": "Sudbury Hill Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 9,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUSUT",
+            "modes": [],
+            "icsCode": "1000228",
+            "stationNaptan": "940GZZLUSUT",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUSUT",
+            "commonName": "Sudbury Town Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 10,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUALP",
+            "modes": [],
+            "icsCode": "1000005",
+            "stationNaptan": "940GZZLUALP",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUALP",
+            "commonName": "Alperton Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 11,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUPKR",
+            "modes": [],
+            "icsCode": "1000176",
+            "stationNaptan": "940GZZLUPKR",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUPKR",
+            "commonName": "Park Royal Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 12,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUNEN",
+            "modes": [],
+            "icsCode": "1000158",
+            "stationNaptan": "940GZZLUNEN",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUNEN",
+            "commonName": "North Ealing Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 13,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUECM",
+            "modes": [],
+            "icsCode": "1000063",
+            "stationNaptan": "940GZZLUECM",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUECM",
+            "commonName": "Ealing Common Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 14,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUACT",
+            "modes": [],
+            "icsCode": "1000002",
+            "stationNaptan": "940GZZLUACT",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUACT",
+            "commonName": "Acton Town Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }]
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.RouteSection, Tfl.Api.Presentation.Entities",
+        "id": "1022",
+        "name": "Cockfosters Underground Station - Heathrow Terminal 5 Underground Station",
+        "direction": "inbound",
+        "originationName": "Cockfosters Underground Station",
+        "destinationName": "Heathrow Terminal 5 Underground Station",
+        "routeSectionNaptanEntrySequence": [{
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 27,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUACT",
+            "modes": [],
+            "icsCode": "1000002",
+            "stationNaptan": "940GZZLUACT",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUACT",
+            "commonName": "Acton Town Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }]
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.RouteSection, Tfl.Api.Presentation.Entities",
+        "id": "1023",
+        "name": "Heathrow Terminal 5 Underground Station - Cockfosters Underground Station",
+        "direction": "outbound",
+        "originationName": "Heathrow Terminal 5 Underground Station",
+        "destinationName": "Cockfosters Underground Station",
+        "routeSectionNaptanEntrySequence": [{
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 10,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUACT",
+            "modes": [],
+            "icsCode": "1000002",
+            "stationNaptan": "940GZZLUACT",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUACT",
+            "commonName": "Acton Town Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }]
+      }],
+      "affectedStops": [{
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "940GZZLUACT",
+        "stationNaptan": "940GZZLUACT",
+        "status": true,
+        "id": "940GZZLUACT",
+        "commonName": "Acton Town Underground Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "940GZZLUALP",
+        "stationNaptan": "940GZZLUALP",
+        "status": true,
+        "id": "940GZZLUALP",
+        "commonName": "Alperton Underground Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "940GZZLUECM",
+        "stationNaptan": "940GZZLUECM",
+        "status": true,
+        "id": "940GZZLUECM",
+        "commonName": "Ealing Common Underground Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "940GZZLUNEN",
+        "stationNaptan": "940GZZLUNEN",
+        "status": true,
+        "id": "940GZZLUNEN",
+        "commonName": "North Ealing Underground Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "940GZZLUPKR",
+        "stationNaptan": "940GZZLUPKR",
+        "status": true,
+        "id": "940GZZLUPKR",
+        "commonName": "Park Royal Underground Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "940GZZLURYL",
+        "stationNaptan": "940GZZLURYL",
+        "status": true,
+        "id": "940GZZLURYL",
+        "commonName": "Rayners Lane Underground Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "940GZZLUSHH",
+        "stationNaptan": "940GZZLUSHH",
+        "status": true,
+        "id": "940GZZLUSHH",
+        "commonName": "South Harrow Underground Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "940GZZLUSUH",
+        "stationNaptan": "940GZZLUSUH",
+        "status": true,
+        "id": "940GZZLUSUH",
+        "commonName": "Sudbury Hill Underground Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "940GZZLUSUT",
+        "stationNaptan": "940GZZLUSUT",
+        "status": true,
+        "id": "940GZZLUSUT",
+        "commonName": "Sudbury Town Underground Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }],
+      "closureText": "minorDelays"
+    }
+  }, {
+    "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+    "id": 0,
+    "lineId": "piccadilly",
+    "statusSeverity": 3,
+    "statusSeverityDescription": "Part Suspended",
+    "reason": "Piccadilly Line: No service between Rayners Lane and Uxbridge, due to difficult track conditions caused by significant leaf fall. Please use the Metropolitan line to complete your journey. MINOR DELAYS between Acton Town and Rayners Lane. GOOD SERVICE on the rest of the line ",
+    "created": "0001-01-01T00:00:00",
+    "validityPeriods": [{
+      "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+      "fromDate": "2021-12-01T14:02:04Z",
+      "toDate": "2021-12-02T02:02:04Z",
+      "isNow": true
+    }],
+    "disruption": {
+      "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+      "category": "RealTime",
+      "categoryDescription": "RealTime",
+      "description": "Piccadilly Line: No service between Rayners Lane and Uxbridge, due to difficult track conditions caused by significant leaf fall. Please use the Metropolitan line to complete your journey. MINOR DELAYS between Acton Town and Rayners Lane. GOOD SERVICE on the rest of the line ",
+      "affectedRoutes": [{
+        "$type": "Tfl.Api.Presentation.Entities.RouteSection, Tfl.Api.Presentation.Entities",
+        "id": "1758",
+        "name": "Cockfosters Underground Station - Uxbridge Underground Station",
+        "direction": "inbound",
+        "originationName": "Cockfosters Underground Station",
+        "destinationName": "Uxbridge Underground Station",
+        "routeSectionNaptanEntrySequence": [{
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 35,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLURYL",
+            "modes": [],
+            "icsCode": "1000189",
+            "stationNaptan": "940GZZLURYL",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLURYL",
+            "commonName": "Rayners Lane Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 36,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUEAE",
+            "modes": [],
+            "icsCode": "1000066",
+            "stationNaptan": "940GZZLUEAE",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUEAE",
+            "commonName": "Eastcote Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 37,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLURSM",
+            "modes": [],
+            "icsCode": "1000199",
+            "stationNaptan": "940GZZLURSM",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLURSM",
+            "commonName": "Ruislip Manor Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 38,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLURSP",
+            "modes": [],
+            "icsCode": "1000197",
+            "stationNaptan": "940GZZLURSP",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLURSP",
+            "commonName": "Ruislip Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 39,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUICK",
+            "modes": [],
+            "icsCode": "1000120",
+            "stationNaptan": "940GZZLUICK",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUICK",
+            "commonName": "Ickenham Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 40,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUHGD",
+            "modes": [],
+            "icsCode": "1000111",
+            "stationNaptan": "940GZZLUHGD",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUHGD",
+            "commonName": "Hillingdon Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 41,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUUXB",
+            "modes": [],
+            "icsCode": "1000246",
+            "stationNaptan": "940GZZLUUXB",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUUXB",
+            "commonName": "Uxbridge Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }]
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.RouteSection, Tfl.Api.Presentation.Entities",
+        "id": "1759",
+        "name": "Uxbridge Underground Station - Cockfosters Underground Station",
+        "direction": "outbound",
+        "originationName": "Uxbridge Underground Station",
+        "destinationName": "Cockfosters Underground Station",
+        "routeSectionNaptanEntrySequence": [{
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 0,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUUXB",
+            "modes": [],
+            "icsCode": "1000246",
+            "stationNaptan": "940GZZLUUXB",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUUXB",
+            "commonName": "Uxbridge Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 1,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUHGD",
+            "modes": [],
+            "icsCode": "1000111",
+            "stationNaptan": "940GZZLUHGD",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUHGD",
+            "commonName": "Hillingdon Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 2,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUICK",
+            "modes": [],
+            "icsCode": "1000120",
+            "stationNaptan": "940GZZLUICK",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUICK",
+            "commonName": "Ickenham Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 3,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLURSP",
+            "modes": [],
+            "icsCode": "1000197",
+            "stationNaptan": "940GZZLURSP",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLURSP",
+            "commonName": "Ruislip Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 4,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLURSM",
+            "modes": [],
+            "icsCode": "1000199",
+            "stationNaptan": "940GZZLURSM",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLURSM",
+            "commonName": "Ruislip Manor Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 5,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUEAE",
+            "modes": [],
+            "icsCode": "1000066",
+            "stationNaptan": "940GZZLUEAE",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUEAE",
+            "commonName": "Eastcote Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 6,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLURYL",
+            "modes": [],
+            "icsCode": "1000189",
+            "stationNaptan": "940GZZLURYL",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLURYL",
+            "commonName": "Rayners Lane Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }]
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.RouteSection, Tfl.Api.Presentation.Entities",
+        "id": "1020",
+        "name": "Cockfosters Underground Station - Uxbridge Underground Station",
+        "direction": "inbound",
+        "originationName": "Cockfosters Underground Station",
+        "destinationName": "Uxbridge Underground Station",
+        "routeSectionNaptanEntrySequence": [{
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 35,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLURYL",
+            "modes": [],
+            "icsCode": "1000189",
+            "stationNaptan": "940GZZLURYL",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLURYL",
+            "commonName": "Rayners Lane Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 36,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUEAE",
+            "modes": [],
+            "icsCode": "1000066",
+            "stationNaptan": "940GZZLUEAE",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUEAE",
+            "commonName": "Eastcote Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 37,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLURSM",
+            "modes": [],
+            "icsCode": "1000199",
+            "stationNaptan": "940GZZLURSM",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLURSM",
+            "commonName": "Ruislip Manor Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 38,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLURSP",
+            "modes": [],
+            "icsCode": "1000197",
+            "stationNaptan": "940GZZLURSP",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLURSP",
+            "commonName": "Ruislip Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 39,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUICK",
+            "modes": [],
+            "icsCode": "1000120",
+            "stationNaptan": "940GZZLUICK",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUICK",
+            "commonName": "Ickenham Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 40,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUHGD",
+            "modes": [],
+            "icsCode": "1000111",
+            "stationNaptan": "940GZZLUHGD",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUHGD",
+            "commonName": "Hillingdon Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 41,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUUXB",
+            "modes": [],
+            "icsCode": "1000246",
+            "stationNaptan": "940GZZLUUXB",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUUXB",
+            "commonName": "Uxbridge Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }]
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.RouteSection, Tfl.Api.Presentation.Entities",
+        "id": "1021",
+        "name": "Uxbridge Underground Station - Cockfosters Underground Station",
+        "direction": "outbound",
+        "originationName": "Uxbridge Underground Station",
+        "destinationName": "Cockfosters Underground Station",
+        "routeSectionNaptanEntrySequence": [{
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 0,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUUXB",
+            "modes": [],
+            "icsCode": "1000246",
+            "stationNaptan": "940GZZLUUXB",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUUXB",
+            "commonName": "Uxbridge Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 1,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUHGD",
+            "modes": [],
+            "icsCode": "1000111",
+            "stationNaptan": "940GZZLUHGD",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUHGD",
+            "commonName": "Hillingdon Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 2,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUICK",
+            "modes": [],
+            "icsCode": "1000120",
+            "stationNaptan": "940GZZLUICK",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUICK",
+            "commonName": "Ickenham Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 3,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLURSP",
+            "modes": [],
+            "icsCode": "1000197",
+            "stationNaptan": "940GZZLURSP",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLURSP",
+            "commonName": "Ruislip Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 4,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLURSM",
+            "modes": [],
+            "icsCode": "1000199",
+            "stationNaptan": "940GZZLURSM",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLURSM",
+            "commonName": "Ruislip Manor Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 5,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUEAE",
+            "modes": [],
+            "icsCode": "1000066",
+            "stationNaptan": "940GZZLUEAE",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLUEAE",
+            "commonName": "Eastcote Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }, {
+          "$type": "Tfl.Api.Presentation.Entities.RouteSectionNaptanEntrySequence, Tfl.Api.Presentation.Entities",
+          "ordinal": 6,
+          "stopPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLURYL",
+            "modes": [],
+            "icsCode": "1000189",
+            "stationNaptan": "940GZZLURYL",
+            "lines": [],
+            "lineGroup": [],
+            "lineModeGroups": [],
+            "status": true,
+            "id": "940GZZLURYL",
+            "commonName": "Rayners Lane Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "children": [],
+            "lat": 0.0,
+            "lon": 0.0
+          }
+        }]
+      }],
+      "affectedStops": [{
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "940GZZLUEAE",
+        "stationNaptan": "940GZZLUEAE",
+        "status": true,
+        "id": "940GZZLUEAE",
+        "commonName": "Eastcote Underground Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "940GZZLUHGD",
+        "stationNaptan": "940GZZLUHGD",
+        "status": true,
+        "id": "940GZZLUHGD",
+        "commonName": "Hillingdon Underground Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "940GZZLUICK",
+        "stationNaptan": "940GZZLUICK",
+        "status": true,
+        "id": "940GZZLUICK",
+        "commonName": "Ickenham Underground Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "940GZZLURSM",
+        "stationNaptan": "940GZZLURSM",
+        "status": true,
+        "id": "940GZZLURSM",
+        "commonName": "Ruislip Manor Underground Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "940GZZLURSP",
+        "stationNaptan": "940GZZLURSP",
+        "status": true,
+        "id": "940GZZLURSP",
+        "commonName": "Ruislip Underground Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "940GZZLURYL",
+        "stationNaptan": "940GZZLURYL",
+        "status": true,
+        "id": "940GZZLURYL",
+        "commonName": "Rayners Lane Underground Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }, {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "940GZZLUUXB",
+        "stationNaptan": "940GZZLUUXB",
+        "status": true,
+        "id": "940GZZLUUXB",
+        "commonName": "Uxbridge Underground Station",
+        "lat": 0.0,
+        "lon": 0.0
+      }],
+      "closureText": "partSuspended"
+    }
+  }],
+  "routeSections": [{
+    "$type": "Tfl.Api.Presentation.Entities.MatchedRoute, Tfl.Api.Presentation.Entities",
+    "name": "Cockfosters Underground Station - Uxbridge Underground Station",
+    "direction": "inbound",
+    "originationName": "Cockfosters Underground Station",
+    "destinationName": "Uxbridge Underground Station",
+    "originator": "940GZZLUCKS",
+    "destination": "940GZZLUUXB",
+    "serviceType": "Regular",
+    "validTo": "2021-12-23T00:00:00Z",
+    "validFrom": "2021-10-16T00:00:00Z"
+  }, {
+    "$type": "Tfl.Api.Presentation.Entities.MatchedRoute, Tfl.Api.Presentation.Entities",
+    "name": "Uxbridge Underground Station - Cockfosters Underground Station",
+    "direction": "outbound",
+    "originationName": "Uxbridge Underground Station",
+    "destinationName": "Cockfosters Underground Station",
+    "originator": "940GZZLUUXB",
+    "destination": "940GZZLUCKS",
+    "serviceType": "Regular",
+    "validTo": "2021-12-23T00:00:00Z",
+    "validFrom": "2021-10-16T00:00:00Z"
+  }, {
+    "$type": "Tfl.Api.Presentation.Entities.MatchedRoute, Tfl.Api.Presentation.Entities",
+    "name": "Cockfosters Underground Station - Heathrow Terminal 5 Underground Station",
+    "direction": "inbound",
+    "originationName": "Cockfosters Underground Station",
+    "destinationName": "Heathrow Terminal 5 Underground Station",
+    "originator": "940GZZLUCKS",
+    "destination": "940GZZLUHR5",
+    "serviceType": "Regular",
+    "validTo": "2021-12-23T00:00:00Z",
+    "validFrom": "2021-10-16T00:00:00Z"
+  }, {
+    "$type": "Tfl.Api.Presentation.Entities.MatchedRoute, Tfl.Api.Presentation.Entities",
+    "name": "Heathrow Terminal 5 Underground Station - Cockfosters Underground Station",
+    "direction": "outbound",
+    "originationName": "Heathrow Terminal 5 Underground Station",
+    "destinationName": "Cockfosters Underground Station",
+    "originator": "940GZZLUHR5",
+    "destination": "940GZZLUCKS",
+    "serviceType": "Regular",
+    "validTo": "2021-12-23T00:00:00Z",
+    "validFrom": "2021-10-16T00:00:00Z"
+  }, {
+    "$type": "Tfl.Api.Presentation.Entities.MatchedRoute, Tfl.Api.Presentation.Entities",
+    "name": "Cockfosters Underground Station - Uxbridge Underground Station",
+    "direction": "inbound",
+    "originationName": "Cockfosters Underground Station",
+    "destinationName": "Uxbridge Underground Station",
+    "originator": "940GZZLUCKS",
+    "destination": "940GZZLUUXB",
+    "serviceType": "Regular",
+    "validTo": "2022-12-23T00:00:00Z",
+    "validFrom": "2021-10-16T00:00:00Z"
+  }, {
+    "$type": "Tfl.Api.Presentation.Entities.MatchedRoute, Tfl.Api.Presentation.Entities",
+    "name": "Uxbridge Underground Station - Cockfosters Underground Station",
+    "direction": "outbound",
+    "originationName": "Uxbridge Underground Station",
+    "destinationName": "Cockfosters Underground Station",
+    "originator": "940GZZLUUXB",
+    "destination": "940GZZLUCKS",
+    "serviceType": "Regular",
+    "validTo": "2022-12-23T00:00:00Z",
+    "validFrom": "2021-10-16T00:00:00Z"
+  }, {
+    "$type": "Tfl.Api.Presentation.Entities.MatchedRoute, Tfl.Api.Presentation.Entities",
+    "name": "Cockfosters Underground Station - Heathrow Terminal 5 Underground Station",
+    "direction": "inbound",
+    "originationName": "Cockfosters Underground Station",
+    "destinationName": "Heathrow Terminal 5 Underground Station",
+    "originator": "940GZZLUCKS",
+    "destination": "940GZZLUHR5",
+    "serviceType": "Regular",
+    "validTo": "2022-12-23T00:00:00Z",
+    "validFrom": "2021-10-16T00:00:00Z"
+  }, {
+    "$type": "Tfl.Api.Presentation.Entities.MatchedRoute, Tfl.Api.Presentation.Entities",
+    "name": "Heathrow Terminal 5 Underground Station - Cockfosters Underground Station",
+    "direction": "outbound",
+    "originationName": "Heathrow Terminal 5 Underground Station",
+    "destinationName": "Cockfosters Underground Station",
+    "originator": "940GZZLUHR5",
+    "destination": "940GZZLUCKS",
+    "serviceType": "Regular",
+    "validTo": "2022-12-23T00:00:00Z",
+    "validFrom": "2021-10-16T00:00:00Z"
+  }],
+  "serviceTypes": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+    "name": "Regular",
+    "uri": "/Line/Route?ids=Piccadilly&serviceTypes=Regular"
+  }, {
+    "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+    "name": "Night",
+    "uri": "/Line/Route?ids=Piccadilly&serviceTypes=Night"
+  }],
+  "crowding": {
+    "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+  }
+}, {
+  "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+  "id": "victoria",
+  "name": "Victoria",
+  "modeName": "tube",
+  "disruptions": [],
+  "created": "2021-11-20T15:09:27.063Z",
+  "modified": "2021-11-20T15:09:27.063Z",
+  "lineStatuses": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+    "id": 0,
+    "statusSeverity": 10,
+    "statusSeverityDescription": "Good Service",
+    "created": "0001-01-01T00:00:00",
+    "validityPeriods": []
+  }],
+  "routeSections": [],
+  "serviceTypes": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+    "name": "Regular",
+    "uri": "/Line/Route?ids=Victoria&serviceTypes=Regular"
+  }, {
+    "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+    "name": "Night",
+    "uri": "/Line/Route?ids=Victoria&serviceTypes=Night"
+  }],
+  "crowding": {
+    "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+  }
+}, {
+  "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+  "id": "waterloo-city",
+  "name": "Waterloo & City",
+  "modeName": "tube",
+  "disruptions": [],
+  "created": "2021-11-20T15:09:27.063Z",
+  "modified": "2021-11-20T15:09:27.063Z",
+  "lineStatuses": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+    "id": 0,
+    "statusSeverity": 10,
+    "statusSeverityDescription": "Good Service",
+    "created": "0001-01-01T00:00:00",
+    "validityPeriods": []
+  }],
+  "routeSections": [],
+  "serviceTypes": [{
+    "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+    "name": "Regular",
+    "uri": "/Line/Route?ids=Waterloo & City&serviceTypes=Regular"
+  }],
+  "crowding": {
+    "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+  }
+}]

@@ -1,0 +1,100 @@
+[{
+  "$type": "Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+  "id": "BikePoints_247",
+  "url": "/Place/BikePoints_247",
+  "commonName": "St. John's Wood Church, The Regent's Park",
+  "placeType": "BikePoint",
+  "additionalProperties": [],
+  "children": [],
+  "childrenUrls": [],
+  "lat": 51.530529,
+  "lon": -0.167515
+}, {
+  "$type": "Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+  "id": "BikePoints_271",
+  "url": "/Place/BikePoints_271",
+  "commonName": "London Zoo,  The Regent's Park",
+  "placeType": "BikePoint",
+  "additionalProperties": [],
+  "children": [],
+  "childrenUrls": [],
+  "lat": 51.535836,
+  "lon": -0.156285
+}, {
+  "$type": "Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+  "id": "BikePoints_76",
+  "url": "/Place/BikePoints_76",
+  "commonName": "Longford Street, The Regent's Park",
+  "placeType": "BikePoint",
+  "additionalProperties": [],
+  "children": [],
+  "childrenUrls": [],
+  "lat": 51.525595,
+  "lon": -0.144083
+}, {
+  "$type": "Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+  "id": "BikePoints_114",
+  "url": "/Place/BikePoints_114",
+  "commonName": "Park Road (Baker Street), The Regent's Park",
+  "placeType": "BikePoint",
+  "additionalProperties": [],
+  "children": [],
+  "childrenUrls": [],
+  "lat": 51.524517,
+  "lon": -0.158963
+}, {
+  "$type": "Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+  "id": "BikePoints_540",
+  "url": "/Place/BikePoints_540",
+  "commonName": "Albany Street, The Regent's Park",
+  "placeType": "BikePoint",
+  "additionalProperties": [],
+  "children": [],
+  "childrenUrls": [],
+  "lat": 51.528302,
+  "lon": -0.144466
+}, {
+  "$type": "Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+  "id": "BikePoints_553",
+  "url": "/Place/BikePoints_553",
+  "commonName": "Regent's Row , Haggerston",
+  "placeType": "BikePoint",
+  "additionalProperties": [],
+  "children": [],
+  "childrenUrls": [],
+  "lat": 51.535678,
+  "lon": -0.062546
+}, {
+  "$type": "Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+  "id": "BikePoints_315",
+  "url": "/Place/BikePoints_315",
+  "commonName": "The Tennis Courts, The Regent's Park",
+  "placeType": "BikePoint",
+  "additionalProperties": [],
+  "children": [],
+  "childrenUrls": [],
+  "lat": 51.525367,
+  "lon": -0.153463
+}, {
+  "$type": "Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+  "id": "BikePoints_329",
+  "url": "/Place/BikePoints_329",
+  "commonName": "Prince Albert Road, The Regent's Park",
+  "placeType": "BikePoint",
+  "additionalProperties": [],
+  "children": [],
+  "childrenUrls": [],
+  "lat": 51.535892,
+  "lon": -0.160854
+}, {
+  "$type": "Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+  "id": "BikePoints_343",
+  "url": "/Place/BikePoints_343",
+  "commonName": "London Zoo Car Park, The Regent's Park",
+  "placeType": "BikePoint",
+  "additionalProperties": [],
+  "children": [],
+  "childrenUrls": [],
+  "lat": 51.536922,
+  "lon": -0.150181
+}]

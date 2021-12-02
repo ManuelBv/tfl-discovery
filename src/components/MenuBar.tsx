@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import styled from '@emotion/styled';
 
 import { orderRegularTubeData } from '../utils/helpers';
-import { CYCLE_STRING } from '../utils/constants';
+import { CYCLE_STRING, CYCLE_HIRE_STRING } from '../utils/constants';
 import SubMenuItems from './SubMenuItems';
 
 import { ServiceStatusContext } from '../App';
@@ -61,7 +61,7 @@ const MenuBar = () => {
       ))
     }
       <li>
-        <button onClick={() => setSelectedService(CYCLE_STRING)}>Cycle Hire</button>
+        <button onClick={() => setSelectedService(CYCLE_STRING)}>{CYCLE_HIRE_STRING}</button>
       </li>
     </MenuWrapper>
   );
